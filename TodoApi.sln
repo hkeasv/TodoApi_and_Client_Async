@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoClient", "TodoClient\TodoClient.csproj", "{4DB04C32-7B96-47EC-9AD9-35ECC9AB0038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApiUnitTests", "TodoApiUnitTests\TodoApiUnitTests.csproj", "{A40A8996-8FE8-42C1-8D66-AB9794601B37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApiIntegrationTests", "TodoApiIntegrationTests\TodoApiIntegrationTests.csproj", "{A40A8996-8FE8-42C1-8D66-AB9794601B37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
