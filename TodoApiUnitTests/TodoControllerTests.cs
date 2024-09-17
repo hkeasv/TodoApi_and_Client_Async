@@ -8,6 +8,8 @@ namespace TodoApiUnitTests
 {
     public class TodoControllerTests
     {
+        // Most of the code in this class was generated using GitHub Copilot.
+        
         private readonly Mock<IRepository<TodoItem>> _mockRepo;
         private readonly TodoController _controller;
 
@@ -24,7 +26,7 @@ namespace TodoApiUnitTests
             var items = new List<TodoItem> { new TodoItem { Id = 1, Name = "Test Item 1" } };
             _mockRepo.Setup(repo => repo.GetAllAsync()).ReturnsAsync(items);
 
-            // Act
+            // Act (synchronous call of controller action)
             var result = _controller.GetAll().Result as List<TodoItem>;
 
             // Assert
@@ -38,7 +40,7 @@ namespace TodoApiUnitTests
             var items = new List<TodoItem> { new TodoItem { Id = 1, Name = "Test Item 1" } };
             _mockRepo.Setup(repo => repo.GetAllAsync()).ReturnsAsync(items);
 
-            // Act
+            // Act (asynchronous call of controller action)
             var result = await _controller.GetAll();
 
             // Assert

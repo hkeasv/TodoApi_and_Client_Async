@@ -25,20 +25,9 @@ public class TodoControllerTests
     }
     
     [Fact]
-    public void GetAll_ReturnsListWithCorrectNumberOfItems()
-    {
-        // Act (synchronous call of controller action)
-        var result = controller.GetAll().Result as List<TodoItem>;
-        var noOfItems = result.Count;
-
-        // Assert
-        Assert.Equal(2, noOfItems);
-    }
-
-    [Fact]
     public async Task GetAll_ReturnsListWithCorrectNumberOfItems_Async()
     {
-        // Act (asynchronous call of controller action)
+        // Act
         var result = await controller.GetAll();
         var items = result as List<TodoItem>;
         var noOfItems = items.Count;
