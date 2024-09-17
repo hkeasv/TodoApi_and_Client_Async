@@ -15,3 +15,9 @@ B
 TodoApi/Program.cs,0/1/01c510d3451d5664042a5a2670980f6636e757fe
 H
 TodoApi/appsettings.json,9/2/9299812529b4ff054521b4d287c52c22aab781a3
+M
+TodoApiUnitTests/UnitTest1.cs,d/d/dd5549257ea7fa0799ff383768c1e9c71da29173
+W
+'TodoApiUnitTests/TodoControllerTests.cs,5/d/5d763cf8122b67fa8598e4ac9738ae99f979dacc
+E
+TodoClient/Program.cs,7/f/7faf73ed5ddf2389032bf98bc5c1a015905f0446

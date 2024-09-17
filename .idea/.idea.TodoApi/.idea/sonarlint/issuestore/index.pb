@@ -15,3 +15,9 @@ R
 "TodoApi/Data/TodoItemRepository.cs,2/4/24d47ed7ab235786d66abc07d24152669dc6af13
 U
 %TodoApi/Controllers/TodoController.cs,1/8/18acef3249cdd95056324b650b833c3087267204
+M
+TodoApiUnitTests/UnitTest1.cs,d/d/dd5549257ea7fa0799ff383768c1e9c71da29173
+W
+'TodoApiUnitTests/TodoControllerTests.cs,5/d/5d763cf8122b67fa8598e4ac9738ae99f979dacc
+E
+TodoClient/Program.cs,7/f/7faf73ed5ddf2389032bf98bc5c1a015905f0446
