@@ -6,7 +6,7 @@ using TodoApi.Models;
 
 namespace TodoApiIntegrationTests;
 
-public class TodoControllerTests
+public class TodoControllerTests : IDisposable
 {
     SqliteConnection connection;
     TodoController controller;
